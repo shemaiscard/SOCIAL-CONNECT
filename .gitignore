@@ -1,0 +1,11 @@
+.env
+.idea/
+.vscode/
+.DS_Store
+/storage/logs/*
+/storage/outbox/*
+!/storage/**/.gitkeep
+/public/uploads/*/*
+!/public/uploads/*/.gitkeep
+/tests/__pycache__/
+/tests/output/

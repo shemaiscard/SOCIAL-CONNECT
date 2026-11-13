@@ -1,0 +1,5 @@
+# Apache fallback when the document root can not point at public/.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
